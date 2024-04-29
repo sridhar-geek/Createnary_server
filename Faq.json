@@ -1,0 +1,44 @@
+{
+    "Questions": [
+        {
+            "id": 1,
+            "question": "How much does it cost to set up a store?",
+            "answer": "The cost of setting of a store can vary depending on the platform and the features you require. Many e-commerce platforms offer both free and paid plans, with additional costs for custimoizarions and add-ons."
+        },
+        {
+            "id": 2,
+            "question": " What kind of digital products can I sell?",
+            "answer": "You can sell wide range of digital products, including e-books, software, music, videos, courses, and more. The possiblities are virtually endless, as long as the product can be delivered digitally"
+        },
+        {
+            "id": 3,
+            "question": "Do I need techanical skills to use the platform?",
+            "answer": "The level of techanical skills required depends on the platfrom you choose. Some e-commerce platforms are designed to be user-friendly and require no techanical skills, while others may require some techincal knowledge for setup and customization."
+        },
+        {
+            "id": 4,
+            "question": "Is there a limit to the number of products I can list?",
+            "answer": "The limit to the number fo products you can list also depends on the platform. Some platforms have a maximum number of products allowed on their plans. while others offer unlimited listings."
+        },
+        {
+            "id": 5,
+            "question": "How do I receive payments for my sales?",
+            "answer": "Most e-commerce offer multiple payment options, including credit/debit cards, PayPal, and other payment gateways, You can choose the payment methods that best suits your customers."
+        },
+        {
+            "id": 6,
+            "question": "Can I sell internationally on this marketplace?",
+            "answer": "Yes, absolutely! Our marketplace supports international selling, allowing you to reach customers worldwide."
+        },
+        {
+            "id": 7,
+            "question": "What support and resources are available for sellers?",
+            "answer": "We provide extensive support and resources for sellers, including tutorials, guides, and dedicated customer support to help you succeed."
+        },
+        {
+            "id": 8,
+            "question": "Is there a review process for uploaded products?",
+            "answer": "Yes, we have a review process in place to encure the quality and integrity of uploaded products. Each product undergoes through review before being made available to customers."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "createnary_server",
+  "version": "1.0.0",
+  "description": "To server images and headings to Createnary website",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Sridhar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
