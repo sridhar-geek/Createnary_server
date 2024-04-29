@@ -10,14 +10,19 @@ const app = express()
 app.use('/static', express.static('public'))
 app.use(
   cors({
-    origin: "https://createnary-client.vercel.app/",
+    origin: "https://createnary-client.vercel.app"
+    // origin: "http://localhost:5173",
   })
 );
+app.get('/', (req,res) => {
+  res.send('<h1>Welcome to Server</h1>')
+})
+
 app.get('/api/about', (req,res) => {
     res.status(200).json(data)
 })
 app.get("/api/faq", (req, res) => {
-  fs.readFile("faq.json", "utf-8", (err, data) => {
+  fs.readFile("Faq.json", "utf-8", (err, data) => {
     if (err) {
       console.error("Error reading FAQ file:", err);
       return res
