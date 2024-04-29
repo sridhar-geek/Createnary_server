@@ -8,9 +8,11 @@ const app = express()
 
 
 app.use('/static', express.static('public'))
-app.use(cors({
-    origin:'http://localhost:5173'
-}))
+app.use(
+  cors({
+    origin: "https://createnary-client.vercel.app/",
+  })
+);
 app.get('/api/about', (req,res) => {
     res.status(200).json(data)
 })
